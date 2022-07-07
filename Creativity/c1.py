@@ -117,9 +117,3 @@ def factors(n: int) -> typing.Iterator[int]:
 # C-1.28
 def norm(v: typing.List[int], p: int = 2) -> int:
     return sum(elem**p for elem in v)**(1/p)
-
-
-if __name__ == "__main__":
-    llist = [5, 12]
-    x = norm(llist)
-    print(x)
